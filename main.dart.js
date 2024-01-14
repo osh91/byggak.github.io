@@ -40804,7 +40804,7 @@ A.fo.prototype={
 tr(){var s=0,r=A.Q(t.H),q=this,p
 var $async$tr=A.R(function(a,b){if(a===1)return A.N(b,r)
 while(true)switch(s){case 0:A.os("email: "+q.b+" \n, phoneNr: "+q.c+" \n, message: "+q.d)
-p=A.iG("tel:+46-762229019",0,null)
+p=A.iG("mailto:oshedhe91@gmail.com?subject="+q.c+"&body="+q.d,0,null)
 s=2
 return A.U(A.agb(p),$async$tr)
 case 2:if(!b)throw A.e(A.bR("Could not launch "+p.k(0)))
